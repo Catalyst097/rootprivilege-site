@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RootPrivilege Pro — Universal OS Deployment & Fleet Suite</title>
+  <meta name="description" content="Deploy 5,000+ software packages, manage PC updates, optimize storage, and orchestrate workstation fleets across your local network in 1 click.">
+  <link rel="icon" type="image/png" href="rootprivilege_mascot.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', monospace; }
+    .glow { box-shadow: 0 0 50px -10px rgba(6, 182, 212, 0.3); }
+  </style>
+</head>
+<body class="bg-[#060913] text-slate-100 min-h-screen selection:bg-cyan-500 selection:text-slate-950">
+
+  <!-- Navigation -->
+  <header class="border-b border-slate-800/80 sticky top-0 bg-[#060913]/90 backdrop-blur-md z-50">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="rootprivilege_mascot.png" alt="RootPrivilege Logo" class="w-10 h-10 rounded-2xl border border-cyan-500/40 shadow-lg shadow-cyan-500/20">
+        <div>
+          <span class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+            RootPrivilege <span class="text-[10px] bg-cyan-950 text-cyan-400 border border-cyan-500/30 px-2 py-0.5 rounded-full font-bold">PRO</span>
+          </span>
+          <span class="text-xs text-slate-400 font-medium">by SystemicLogics</span>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-300">
+        <a href="#features" class="hover:text-cyan-400 transition-colors">Features</a>
+        <a href="#architecture" class="hover:text-cyan-400 transition-colors">Fleet Engine</a>
+        <a href="#pricing" class="hover:text-cyan-400 transition-colors">Pricing</a>
+        <a href="#faq" class="hover:text-cyan-400 transition-colors">FAQ</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="#pricing" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black text-xs shadow-lg shadow-cyan-500/25 transition-all">
+          Get RootPrivilege
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-20 pb-28 px-6 overflow-hidden">
+    <div class="max-w-5xl mx-auto text-center space-y-8 relative z-10">
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-bold uppercase tracking-wider">
+        <span>Universal Windows OS Deployment & Fleet Suite</span>
+      </div>
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none">
+        Automate App Deployment & <span class="bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400">Fleet Control</span> In 1 Click.
+      </h1>
+      <p class="text-base sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+        Deploy 5,000+ curated and global software packages, manage silent updates, optimize Windows storage, and orchestrate classroom and lab workstations across your local network without expensive cloud MDM servers.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+        <a href="#pricing" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black text-sm shadow-xl shadow-cyan-500/20 transition-all flex items-center justify-center gap-2">
+          <span>Get Instant Pro Access</span>
+          <span>→</span>
+        </a>
+        <a href="#features" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 font-bold text-sm border border-slate-700 transition-all">
+          Explore Features
+        </a>
+      </div>
+
+      <!-- Live Dashboard Graphic / Preview -->
+      <div class="pt-12">
+        <div class="rounded-3xl border border-slate-700/80 bg-slate-900/60 p-4 shadow-2xl glow max-w-4xl mx-auto">
+          <div class="bg-[#0b101d] rounded-2xl p-6 text-left border border-slate-800 space-y-6">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-4">
+              <div class="flex items-center gap-3">
+                <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+                <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                <span class="text-xs font-mono text-slate-400 ml-2">RootPrivilege Pro — Mission Control</span>
+              </div>
+              <span class="text-xs font-mono text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2.5 py-1 rounded-full">LAN Hub Active • Port 8765</span>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                <div class="text-xs text-slate-400 font-bold">INSTALLED APPS</div>
+                <div class="text-2xl font-black text-white mt-1">24 Detected</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                <div class="text-xs text-slate-400 font-bold">STORE CATALOG</div>
+                <div class="text-2xl font-black text-cyan-400 mt-1">5,000+ Apps</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                <div class="text-xs text-slate-400 font-bold">QUEUE RUNNER</div>
+                <div class="text-2xl font-black text-emerald-400 mt-1">Sequential Lock</div>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900/80 border border-slate-800">
+                <div class="text-xs text-slate-400 font-bold">FLEET NODE</div>
+                <div class="text-2xl font-black text-indigo-400 mt-1">WebSocket Sync</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="features" class="py-24 px-6 border-t border-slate-800/80 bg-[#080d1a]/50">
+    <div class="max-w-6xl mx-auto space-y-16">
+      <div class="text-center space-y-4">
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight">Engineered for System Admins, Labs, & Power Users</h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">Everything you need to deploy, maintain, and secure Windows workstations in one unified suite.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 space-y-4 hover:border-cyan-500/40 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 text-xl font-black">⚡</div>
+          <h3 class="text-xl font-bold text-white">Sequential 1-Click Installer</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Search through 5,000+ Winget packages or select curated stacks. Automated FIFO queue prevents installer collisions and silent failure.</p>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 space-y-4 hover:border-cyan-500/40 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 text-xl font-black">🌐</div>
+          <h3 class="text-xl font-bold text-white">Zero-Cloud LAN Fleet Deployer</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Auto-discover lab PCs on your local Wi-Fi/Ethernet. Broadcast batch installations, run silent updates, and monitor workstation health with 0 server costs.</p>
+        </div>
+
+        <div class="p-8 rounded-3xl bg-slate-900/50 border border-slate-800 space-y-4 hover:border-cyan-500/40 transition-all">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xl font-black">🧹</div>
+          <h3 class="text-xl font-bold text-white">Deep Cleaner & RAM Engine</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Purge system temporary files, prefetch cache, diagnostic memory dumps, and trim working-set RAM to keep systems operating at peak performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-24 px-6 border-t border-slate-800/80">
+    <div class="max-w-4xl mx-auto space-y-12 text-center">
+      <div class="space-y-4">
+        <h2 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Simple, Transparent Pricing</h2>
+        <p class="text-slate-400">One license unlocks all current and future Pro features. No hidden charges.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto text-left">
+        
+        <!-- Yearly Pro -->
+        <div class="p-8 rounded-3xl bg-gradient-to-b from-slate-900 to-slate-950 border-2 border-cyan-500/50 relative shadow-2xl glow flex flex-col justify-between">
+          <div class="space-y-6">
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-bold text-cyan-400 uppercase tracking-wider">Annual License</span>
+              <span class="text-[11px] font-black bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 px-2.5 py-1 rounded-full">POPULAR</span>
+            </div>
+            <div>
+              <div class="text-4xl font-black text-white">₹1,499 <span class="text-sm font-normal text-slate-400">/ year ($18/yr)</span></div>
+              <p class="text-xs text-slate-400 mt-2">Billed annually. Cancel anytime.</p>
+            </div>
+            <ul class="space-y-3 text-xs text-slate-300">
+              <li class="flex items-center gap-2">✓ <strong>Full App Catalog & Global Search</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Sequential Batch Queue Runner</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Real-Time LAN Fleet Deployer Hub</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Deep Cleaner & RAM Optimization</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Priority Technical Support</strong></li>
+            </ul>
+          </div>
+          <div class="pt-8">
+            <a href="https://systemiclogics.lemonsqueezy.com/buy/rootprivilege-pro" class="block w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-slate-950 font-black text-center text-xs shadow-lg shadow-cyan-500/25 transition-all">
+              Buy Annual License →
+            </a>
+          </div>
+        </div>
+
+        <!-- Lifetime Pro -->
+        <div class="p-8 rounded-3xl bg-slate-900/60 border border-slate-800 flex flex-col justify-between hover:border-slate-700 transition-all">
+          <div class="space-y-6">
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-bold text-slate-400 uppercase tracking-wider">Lifetime Pass</span>
+              <span class="text-[11px] font-bold bg-slate-800 text-slate-300 px-2.5 py-1 rounded-full">ONE-TIME</span>
+            </div>
+            <div>
+              <div class="text-4xl font-black text-white">₹2,499 <span class="text-sm font-normal text-slate-400">one-time ($29)</span></div>
+              <p class="text-xs text-slate-400 mt-2">Pay once, use forever on your workstations.</p>
+            </div>
+            <ul class="space-y-3 text-xs text-slate-300">
+              <li class="flex items-center gap-2">✓ <strong>Everything in Annual Plan</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Lifetime Updates & Major Versions</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>No Recurring Subscriptions</strong></li>
+              <li class="flex items-center gap-2">✓ <strong>Multi-PC Commercial Use</strong></li>
+            </ul>
+          </div>
+          <div class="pt-8">
+            <a href="https://systemiclogics.lemonsqueezy.com/buy/rootprivilege-lifetime" class="block w-full py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-center text-xs border border-slate-700 transition-all">
+              Buy Lifetime Pass →
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-xs text-slate-500 font-medium">
+        🔒 Payments secured by 256-bit encryption through <strong>Lemon Squeezy</strong>. 14-Day Money-Back Guarantee.
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal & Footer Section (Required by Lemon Squeezy) -->
+  <footer class="border-t border-slate-800 bg-[#04060d] py-16 px-6 text-slate-400 text-xs">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+      <div class="space-y-4 md:col-span-2">
+        <div class="flex items-center gap-2">
+          <img src="rootprivilege_mascot.png" alt="Logo" class="w-7 h-7 rounded-lg">
+          <span class="font-black text-white text-sm">SystemicLogics</span>
+        </div>
+        <p class="text-slate-500 leading-relaxed max-w-sm">
+          SystemicLogics specializes in high-performance automation utilities, fleet management software, and developer tools.
+        </p>
+        <p class="text-slate-500">Contact: <a href="mailto:support@systemiclogics.com" class="text-cyan-400 hover:underline">support@systemiclogics.com</a></p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white uppercase tracking-wider mb-4">Product</h4>
+        <ul class="space-y-2">
+          <li><a href="#features" class="hover:text-white">Features</a></li>
+          <li><a href="#pricing" class="hover:text-white">Pricing</a></li>
+          <li><a href="https://github.com/systemiclogics-beep/appsnap" target="_blank" class="hover:text-white">GitHub Repository</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-white uppercase tracking-wider mb-4">Legal & Compliance</h4>
+        <ul class="space-y-2">
+          <li><a href="terms.html" class="hover:text-white">Terms of Service</a></li>
+          <li><a href="privacy.html" class="hover:text-white">Privacy Policy</a></li>
+          <li><a href="refund.html" class="hover:text-white">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto border-t border-slate-800/80 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500">
+      <p>© 2026 SystemicLogics. All rights reserved.</p>
+      <p>RootPrivilege Pro is a trademark of SystemicLogics.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
