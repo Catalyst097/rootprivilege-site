@@ -2,21 +2,48 @@
 <html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy — SystemicLogics</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>body { font-family: 'Plus Jakarta Sans', sans-serif; }</style>
 </head>
-<body class="bg-[#060913] text-slate-300 p-8 max-w-4xl mx-auto leading-relaxed">
-  <a href="index.html" class="text-cyan-400 text-sm font-bold">← Back to SystemicLogics</a>
-  <h1 class="text-3xl font-black text-white mt-6 mb-4">Privacy Policy</h1>
-  <p class="text-xs text-slate-500 mb-8">Last Updated: September 2026</p>
+<body class="bg-[#060913] text-slate-300 p-6 sm:p-12 max-w-4xl mx-auto leading-relaxed">
+  <a href="index.html" class="text-cyan-400 text-sm font-bold hover:underline">← Back to SystemicLogics</a>
+  <h1 class="text-3xl sm:text-4xl font-black text-white mt-6 mb-2">Privacy Policy</h1>
+  <p class="text-xs text-slate-500 mb-8 font-mono">Last Updated: October 2026 • Effective Immediately</p>
 
-  <h2 class="text-xl font-bold text-white mt-6 mb-2">1. Local-First Architecture</h2>
-  <p>SystemicLogics products (including TwinWing) operate locally on your devices. We do not track, collect, or store personal files, system logs, or user browsing history.</p>
+  <div class="space-y-6 text-sm">
+    <section>
+      <h2 class="text-lg font-bold text-white mb-2">1. Local-First Design & Zero Telemetry</h2>
+      <p>TwinWing operates locally on your machine. SystemicLogics does not run user analytics, session recording, background telemetry, crash reporters, or behavioral tracking services. Your local files, personal folders, search queries, and operating system registry entries remain strictly on your local computer.</p>
+    </section>
 
-  <h2 class="text-xl font-bold text-white mt-6 mb-2">2. Payment & Customer Data</h2>
-  <p>Billing information is handled exclusively by Lemon Squeezy under bank-grade security standards. SystemicLogics retains only customer email addresses for license delivery, subscription validation, and support communications.</p>
+    <section>
+      <h2 class="text-lg font-bold text-white mb-2">2. Network Activity & Outbound Connections</h2>
+      <p>To deliver its core capabilities, TwinWing makes the following network requests:</p>
+      <ul class="list-disc list-inside mt-2 space-y-1.5 text-slate-400">
+        <li><strong class="text-slate-200">Microsoft WinGet Repositories:</strong> Queries Microsoft's public package index to retrieve metadata and triggers downloads directly from official software publisher distribution servers.</li>
+        <li><strong class="text-slate-200">License Verification (Lemon Squeezy):</strong> When activating a paid subscription, the app communicates with Lemon Squeezy's API with an anonymized device hash to validate active entitlement.</li>
+        <li><strong class="text-slate-200">Local Area Network (LAN) Broadcast:</strong> In Teacher/Admin Hub mode, the app broadcasts discovery beacons strictly within your local subnet over UDP/WebSocket to coordinate classroom pairing. No LAN data ever leaves your network.</li>
+      </ul>
+    </section>
 
-  <h2 class="text-xl font-bold text-white mt-6 mb-2">3. Contact Us</h2>
-  <p>For privacy inquiries, contact systemiclogics@gmail.com.</p>
+    <section>
+      <h2 class="text-lg font-bold text-white mb-2">3. Payment & Billing Information</h2>
+      <p>All subscription transactions and invoicing are handled directly by Lemon Squeezy (our Merchant of Record). SystemicLogics does not collect, receive, or store your credit card, debit card, or payment credentials. Lemon Squeezy provides us with an anonymized order reference, active subscription status, and contact email for customer support and license fulfillment.</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-bold text-white mb-2">4. Classroom & Minor Protection</h2>
+      <p>In educational lab environments, local LAN communication (including student-teacher coordination messages) remains strictly confined to the local area network. SystemicLogics never accesses, stores, or relays classroom communications.</p>
+    </section>
+
+    <section>
+      <h2 class="text-lg font-bold text-white mb-2">5. Data Deletion & Inquiries</h2>
+      <p>Because application data is stored locally in your Windows AppData directory (<code class="text-cyan-300 font-mono text-xs">%APPDATA%\TwinWing</code>), you can completely erase all local profiles and caches at any time by uninstalling the application or deleting that folder.</p>
+      <p class="mt-2">For any privacy questions or requests, contact: <a href="mailto:systemiclogics@gmail.com" class="text-cyan-400">systemiclogics@gmail.com</a></p>
+    </section>
+  </div>
 </body>
 </html>
