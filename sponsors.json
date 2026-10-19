@@ -1,14 +1,5 @@
 {
   "version": 1,
-  "active": true,
-  "sponsor": {
-    "id": "partner-1",
-    "name": "Wikipedia",
-    "badge": "FEATURED PARTNER",
-    "tagline": "The Free Encyclopedia for everyone.",
-    "description": "Explore millions of free knowledge articles.",
-    "ctaText": "Visit Wikipedia →",
-    "ctaUrl": "https://www.wikipedia.org",
-    "icon": "🌐"
-  }
+  "active": false,
+  "sponsor": null
 }
