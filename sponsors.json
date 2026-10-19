@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "active": true,
+  "sponsor": {
+    "id": "twinwing-community",
+    "name": "TwinWing Community Supporter",
+    "badge": "FEATURED PARTNER",
+    "tagline": "Support independent local-first system engineering.",
+    "description": "TwinWing is 100% free and open. Star our project on GitHub or sponsor future releases to keep development thriving.",
+    "ctaText": "Star on GitHub ★",
+    "ctaUrl": "https://github.com/Catalyst097/twinwing-releases",
+    "icon": "⚡"
+  }
+}
