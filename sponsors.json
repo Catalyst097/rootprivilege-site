@@ -2,13 +2,13 @@
   "version": 1,
   "active": true,
   "sponsor": {
-    "id": "nordvpn-test",
-    "name": "NordVPN Security Suite",
-    "badge": "SPONSORED PARTNER",
-    "tagline": "Ultra-fast VPN & threat protection for Windows workstations.",
-    "description": "Secure your desktop traffic and access global servers with native Windows speed.",
-    "ctaText": "Visit NordVPN →",
-    "ctaUrl": "https://nordvpn.com",
-    "icon": "🛡️"
+    "id": "partner-1",
+    "name": "Wikipedia",
+    "badge": "FEATURED PARTNER",
+    "tagline": "The Free Encyclopedia for everyone.",
+    "description": "Explore millions of free knowledge articles.",
+    "ctaText": "Visit Wikipedia →",
+    "ctaUrl": "https://www.wikipedia.org",
+    "icon": "🌐"
   }
 }
